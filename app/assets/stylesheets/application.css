@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
-h1{
+.indexcss{
     font-size: 42px;
 }
 
@@ -44,4 +44,16 @@ html{
 li{
     padding: 5px;
     margin-bottom: 10px;
+}
+
+.showcss{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    display: inline;
+}
+.buttons{
+    position: absolute;
+    top: 1000px;
+    color: green;
 }
