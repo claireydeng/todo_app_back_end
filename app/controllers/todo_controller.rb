@@ -2,10 +2,6 @@ class TodoController < ApplicationController
     def index
     end
     def show
-        # @todo_description="Finish essay" 
-        # @todo_deadline= "Monday"
-        # @todo_comments= "No comment"
-        
         todo_id=params[:id]
         if todo_id == '1' 
             @todo_description="Finish essay"

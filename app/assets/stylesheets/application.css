@@ -22,6 +22,7 @@ html{
     color: #000000;
     border-style: solid;
     border-color: #FFFFFF;
+    text-align: center;
 }
 .todo{
     font-weight: bold;
