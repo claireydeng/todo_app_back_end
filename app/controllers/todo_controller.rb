@@ -2,6 +2,8 @@ class TodoController < ApplicationController
     def index
     end
     def show
+    end
+    def new
         @todo = Todo.find_by_id(params[:id])
         #todo_id=params[:id]
         #if todo_id == '1' 
@@ -34,6 +36,14 @@ class TodoController < ApplicationController
             #@todo_comments="Need to read a classic novel before school starts."
         #end
     end
-    #def edit
-    #end
+    def create
+        t = Todo.new
+        t.description = params['description']
+        t.deadline = params['deadline']
+        t.comments = params['comments']
+        t.save
+        redirect_to "/todo/show/#{ t.id }"
+    end
+    def edit
+    end
 end
