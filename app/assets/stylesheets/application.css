@@ -21,12 +21,12 @@ html{
     font-family: sans-serif;
     color: #000000;
     border-style: solid;
-    border-color: #000000;
+    border-color: #FFFFFF;
 }
 .todo{
     font-weight: bold;
     color: #000000;
-    background-color: #FFFFFF;
+    background-color: #ADD8E6;
     border-radius: 50px;
     font-size: 14px;
     padding: 5px 10px 5px 10px;
@@ -45,15 +45,42 @@ li{
     padding: 5px;
     margin-bottom: 10px;
 }
-
-.showcss{
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
-    display: inline;
+body{
+    background-image: url(https://c2.q-assets.com/images/products/p/wpx/wpx-248_3z.jpg);
+    background-repeat: no-repeat;
+    background-size: 1250px 1250px
 }
+.indexcss{
+    font-family: Calibri;
+    text-align: center
+}
+ul{
+    text-align: center
+}
+#new-todo-block{
+    text-align: center
+}
+
 .buttons{
-    position: absolute;
-    top: 1000px;
-    color: green;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    position: relative;
+    background-color: #ffb6c1;
+}
+.showcss{
+    border-style: double;
+    border-color: #ADD8E6;
+    margin: 30px 400px 30px 400px;
+    border-width: 30px
+}
+body{
+    background-image: url(https://c2.q-assets.com/images/products/p/wpx/wpx-248_3z.jpg);
+    background-repeat: no-repeat;
+    background-size: 1250px 1250px
+}
+html{
+    text-align: center;
 }

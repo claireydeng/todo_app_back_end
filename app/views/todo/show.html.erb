@@ -1,0 +1,9 @@
+<h3>Todo #<%= params[:id] %></h3>
+<h1><div class="showcss">Description</div></h1>
+            <span class="buttons"><a href="index.html">Go back</a></span>
+            <span class="buttons"><a href="*">Delete</a></span>
+            <span class="buttons"><a href="*">Edit</a></span>
+        <h2>Todo: <%= @todo_description %></h2>
+            <p><div class="showp">Deadline: <%= @todo_deadline %></div></p>
+            <p><div class="showp">Comments: <%= @todo_comments %> </div></p>  <!-- you would need to create an instance variable in the controller -->
+        </div>
