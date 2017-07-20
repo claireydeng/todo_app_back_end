@@ -2,8 +2,9 @@
 <h1><div class="showcss">Description</div></h1>
             <span class="buttons"><a href="index.html">Go back</a></span>
             <span class="buttons"><a href="*">Delete</a></span>
-            <span class="buttons"><a href="*">Edit</a></span>
+            <span class="buttons"><a href=".todo/edit/<%= @todo.id %>" class="button edit-todo-button">Edit</a></span>
         <h2>Todo: <%= @todo.description %></h2>
             <p><div class="showp">Deadline: <%= @todo.deadline %></div></p>
             <p><div class="showp">Comments: <%= @todo.comments %> </div></p>  <!-- you would need to create an instance variable in the controller -->
-        </d
+
+       
